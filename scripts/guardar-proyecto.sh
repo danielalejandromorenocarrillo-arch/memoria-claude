@@ -36,6 +36,8 @@ EOF
 # Añadir/actualizar en el grafo global (~/.graphify -> este repo)
 "$REPO/scripts/activar.sh" >/dev/null
 graphify global add "$DEST/graph.json" --as "$NOMBRE"
+# En Windows ~/.graphify es una copia, no un enlace: devolver el grafo global al repo.
+[ -L "$HOME/.graphify" ] || cp "$HOME/.graphify/"global-*.json "$REPO/graphify/"
 
 # Índice legible
 {

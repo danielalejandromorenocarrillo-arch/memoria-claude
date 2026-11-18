@@ -1,4 +1,12 @@
 {
   "version": 1,
-  "repos": {}
+  "repos": {
+    "remotion": {
+      "added_at": "2026-11-18T14:58:02.725111+00:00",
+      "source_path": "C:\\Users\\Focus Media.DESKTOP-F57CS00\\memoria-claude\\proyectos\\remotion\\graph.json",
+      "node_count": 758,
+      "edge_count": 1198,
+      "source_hash": "d537957cfa83e7fc"
+    }
+  }
 }
