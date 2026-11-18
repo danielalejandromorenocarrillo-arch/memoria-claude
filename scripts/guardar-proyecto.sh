@@ -29,7 +29,7 @@ cat > "$DEST/info.md" <<EOF
 # $NOMBRE
 - Descripción: ${DESC:-${PREV_DESC:-(sin descripción)}}
 - Repositorio: ${ORIGEN:-(sin remoto)}
-- Ruta en la sesión: $RUTA
+- Ruta local: $RUTA
 - Última actualización: $(date -u +%Y-%m-%dT%H:%MZ)
 EOF
 

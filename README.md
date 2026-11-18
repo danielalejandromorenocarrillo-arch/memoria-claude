@@ -16,3 +16,13 @@ Uso manual:
 scripts/buscar.sh "autenticación"
 scripts/guardar-proyecto.sh ~/mi-proyecto mi-proyecto "API de pedidos"
 ```
+
+## Instalar en tu PC
+
+```bash
+git clone https://github.com/danielalejandromorenocarrillo-arch/memoria-claude ~/memoria-claude
+bash ~/memoria-claude/scripts/instalar-pc.sh
+```
+
+El instalador pone graphify, añade la regla a `~/.claude/CLAUDE.md` y lo comprueba
+todo, incluido claude-mem (solo lo revisa, no lo cambia).

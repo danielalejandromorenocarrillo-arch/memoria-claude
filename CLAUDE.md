@@ -14,7 +14,8 @@ Responde al usuario en español.
 ## Regla 1: cuando el usuario se refiera a algo que ya hizo
 Siempre que mencione trabajo anterior ("lo que hice en...", "como en el proyecto de...",
 "la función que hicimos...", "¿te acuerdas de...?"), aunque sea de otro entorno:
-1. Ejecuta `scripts/activar.sh` y lee `INDICE.md`.
+1. Actualiza la memoria (`git pull -q` en este repositorio), ejecuta
+   `scripts/activar.sh` y lee `INDICE.md`.
 2. Ejecuta `scripts/buscar.sh "<términos clave>"` (añade el nombre del proyecto
    como segundo argumento si lo sabes). Para más detalle usa `graphify explain`,
    `graphify path` o `graphify query` con `--graph proyectos/<nombre>/graph.json`,
@@ -23,8 +24,8 @@ Siempre que mencione trabajo anterior ("lo que hice en...", "como en el proyecto
    búsqueda o `claude-mem search "<términos>"`) para saber qué se hizo, cuándo y
    por qué. graphify dice cómo está hecho el código; claude-mem, la historia.
    Solo lectura: no cambies la instalación ni la configuración de claude-mem.
-4. Si necesitas el código real, el repositorio del proyecto está en `info.md`:
-   adjúntalo con la herramienta add_repo y clónalo.
+4. Si necesitas el código real, mira `info.md`: la ruta local del proyecto o su
+   repositorio (clónalo si no está en esta máquina).
 5. Responde combinando lo encontrado y di de qué proyecto sale cada cosa.
    Si no hay nada guardado, dilo; no inventes.
 
