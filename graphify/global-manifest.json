@@ -7,6 +7,13 @@
       "node_count": 758,
       "edge_count": 1198,
       "source_hash": "d537957cfa83e7fc"
+    },
+    "tmp": {
+      "added_at": "2026-11-18T15:06:43.163753+00:00",
+      "source_path": "C:\\Users\\Focus Media.DESKTOP-F57CS00\\memoria-claude\\proyectos\\tmp\\graph.json",
+      "node_count": 3044,
+      "edge_count": 3689,
+      "source_hash": "4789482f025452f1"
     }
   }
 }
